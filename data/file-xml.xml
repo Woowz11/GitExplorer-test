@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2fc746f0-8f8a-4a48-b30a-58c2efa274b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/script/ModelScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/engine/Controls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/engine/Controls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/engine/LWJGL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/engine/LWJGL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/engine/manager/PropManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/engine/manager/PropManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/engine/manager/RenderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/engine/manager/RenderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/engine/manager/UIManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/engine/manager/UIManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/object/Prop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/object/Prop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/object/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/object/Scene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/object/Script.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/object/Script.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/command/ChromakeyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/command/ChromakeyCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/scene/CheckingGraphicsPerformanceScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/scene/CheckingGraphicsPerformanceScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/scene/FirstScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/scene/FirstScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/scene/LightTestScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/scene/LightTestScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/scene/PhysicTestScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/scene/PhysicTestScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/script/PhysicScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/script/PhysicScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/script/Render2DScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/script/Model2DScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/script/Render3DScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/script/Model3DScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/script/RenderScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/script/RenderScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/script/RenderableScript.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/script/SkyboxScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/script/SkysphereScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/script/TextScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/script/TextScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/script/UIButtonScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/woowzcore/object/created/script/UIButtonScript.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Woowzcore" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Woowzcore" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Woowzcore" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Woowzcore" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Woowzcore" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="woowzcore" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Exception" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2uYXAXEjjsxE05VOrw4i1E03VFm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Start.executor&quot;: &quot;Profiler#1&quot;,
+    &quot;Gradle.Build Woowzcore.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Woowzcore [:org.example.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Woowzcore [:woowzcore.Start.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Woowzcore [:woowzcore.base.Start.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Woowzcore [buildCustom].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Woowzcore [buildDependents].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Woowzcore [buildNeeded].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Woowzcore [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Woowzcore [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Woowzcore [generateShaChecksums].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Woowzcore [javadoc].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Woowzcore [run].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Woowzcore [shadowJar].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;W:/Other/Woowzcore/build.gradle&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.37359792&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\Other\Woowzcore\src\main\resources\assets" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="woowzcore.object.created.scene" />
+      <recent name="woowzcore.object.created.command" />
+      <recent name="woowzcore.object.created.script" />
+      <recent name="woowzcore.objects.created.script" />
+      <recent name="woowzcore.engine.exceptions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Woowzcore [compile]">
+    <configuration name="Woowzcore [compile]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compile" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Woowzcore [javadoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="javadoc" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Woowzcore [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Woowzcore [compile]" />
+        <item itemvalue="Gradle.Woowzcore [javadoc]" />
+        <item itemvalue="Gradle.Woowzcore [run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.24807.4" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.24807.4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fc746f0-8f8a-4a48-b30a-58c2efa274b4" name="Changes" comment="" />
+      <created>1742426338635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742426338635</updated>
+      <workItem from="1742476733457" duration="32941000" />
+      <workItem from="1742549635582" duration="8165000" />
+      <workItem from="1742566346192" duration="27434000" />
+      <workItem from="1742636628287" duration="18406000" />
+      <workItem from="1742670016634" duration="19710000" />
+      <workItem from="1742723389732" duration="23797000" />
+      <workItem from="1742749392616" duration="15964000" />
+      <workItem from="1742813722134" duration="42393000" />
+      <workItem from="1742896775585" duration="33971000" />
+      <workItem from="1742987695387" duration="5479000" />
+      <workItem from="1743018940291" duration="9700000" />
+      <workItem from="1743072341023" duration="1205000" />
+      <workItem from="1743163738706" duration="9488000" />
+      <workItem from="1743250004209" duration="12440000" />
+      <workItem from="1743281902964" duration="105000" />
+      <workItem from="1743504987061" duration="27585000" />
+      <workItem from="1743574954248" duration="24440000" />
+      <workItem from="1743617904052" duration="11808000" />
+      <workItem from="1743672191584" duration="42502000" />
+      <workItem from="1743756169580" duration="37926000" />
+      <workItem from="1743845577355" duration="21002000" />
+      <workItem from="1743930231580" duration="14080000" />
+      <workItem from="1743957996153" duration="6291000" />
+      <workItem from="1744015307984" duration="594000" />
+      <workItem from="1744039617166" duration="10065000" />
+      <workItem from="1744103243675" duration="6245000" />
+      <workItem from="1744273767276" duration="16229000" />
+      <workItem from="1744451711694" duration="5077000" />
+      <workItem from="1744535264070" duration="7505000" />
+      <workItem from="1744621611528" duration="1886000" />
+      <workItem from="1744706570504" duration="43720000" />
+      <workItem from="1744806417843" duration="25605000" />
+      <workItem from="1744881960486" duration="21011000" />
+      <workItem from="1744967688325" duration="2489000" />
+      <workItem from="1745003581252" duration="5720000" />
+      <workItem from="1745061205544" duration="675000" />
+      <workItem from="1745088463799" duration="11359000" />
+      <workItem from="1745154439076" duration="2408000" />
+      <workItem from="1745179158710" duration="344000" />
+      <workItem from="1745180327674" duration="1229000" />
+      <workItem from="1745231300691" duration="19910000" />
+      <workItem from="1745313352925" duration="15759000" />
+      <workItem from="1745345577556" duration="256000" />
+      <workItem from="1745492269975" duration="285000" />
+      <workItem from="1745614282470" duration="8560000" />
+      <workItem from="1745666944112" duration="2632000" />
+      <workItem from="1745749461121" duration="3006000" />
+      <workItem from="1745941569035" duration="650000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.shader" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.frag" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.vert" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

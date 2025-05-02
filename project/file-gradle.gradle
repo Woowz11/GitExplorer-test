@@ -1,0 +1,113 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://oss.sonatype.org/content/repositories/snapshots/"
+    }
+    maven {
+        url "http://jbullet.advel.cz/"
+        allowInsecureProtocol = true
+    }
+    maven {
+        url 'https://jitpack.io'
+    }
+}
+
+group = 'woowzcore'
+
+tasks.register('run', JavaExec) {
+    group = "woowzcore"
+    description = "Запустить игру"
+    classpath sourceSets.main.runtimeClasspath
+
+    /* Показывать загрузку файлов */
+    args '#showloading'
+    args '#stable'
+    args '#nomsaa'
+
+    main 'woowzcore.Start'
+}
+
+tasks.register('compile', Exec) {
+    group = "woowzcore"
+    description = "Собрать проект с использованием shadowJar"
+    commandLine 'cmd', '/c', 'gradlew.bat', 'shadowJar'
+}
+
+javadoc {
+    options.encoding       = 'UTF-8'
+    options.stylesheetFile = new File(projectDir, "javadoc/style.css");
+    options.showAll()
+}
+
+shadowJar {
+    archiveBaseName.set('woowzcore')
+    archiveClassifier.set('')
+
+    manifest {
+        attributes(
+                'Main-Class': 'woowzcore.Start'
+        )
+    }
+}
+
+project.ext.lwjglVersion = "3.3.6"
+project.ext.lwjglNatives = "natives-windows"
+project.ext.jomlVersion  = "1.10.8"
+dependencies {
+    /* LWJGL */
+    implementation platform("org.lwjgl:lwjgl-bom:$lwjglVersion")
+    implementation "org.lwjgl:lwjgl"
+    runtimeOnly    "org.lwjgl:lwjgl::$lwjglNatives"
+
+    /* Окна */
+    implementation "org.lwjgl:lwjgl-glfw"
+    runtimeOnly    "org.lwjgl:lwjgl-glfw::$lwjglNatives"
+
+    /* Рендер */
+    implementation "org.lwjgl:lwjgl-opengl"
+    runtimeOnly    "org.lwjgl:lwjgl-opengl::$lwjglNatives"
+
+    /* Математика */
+    implementation "org.joml:joml:${jomlVersion}"
+
+    /* JSON */
+    implementation "com.fasterxml.jackson.core:jackson-databind:2.15.2"
+
+    /* Загрузка PNG */
+    implementation "org.lwjgl:lwjgl-stb"
+    runtimeOnly    "org.lwjgl:lwjgl-stb::$lwjglNatives"
+
+    /* Загрузка ICO */
+    implementation 'org.jclarion:image4j:0.7'
+
+    /* Загрузка OBJ */
+    implementation "org.lwjgl:lwjgl-assimp"
+    runtimeOnly    "org.lwjgl:lwjgl-assimp::$lwjglNatives"
+
+    /* 3D Физика */
+    implementation 'cz.advel.jbullet:jbullet:20101010-1'
+
+    /* Для работы с Discord */
+    implementation 'net.java.dev.jna:jna:5.4.0'
+    implementation 'com.github.Vatuu:discord-rpc-binaries:3.4.0'
+    implementation 'com.github.Vatuu:discord-rpc:1.6.2'
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'woowzcore.Start'
+        )
+    }
+
+    from {
+        configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
