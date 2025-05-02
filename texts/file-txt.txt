@@ -1,0 +1,2 @@
+File txt content
+without utf-8 and bytes
